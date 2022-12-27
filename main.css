@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #5f5d5d;
+}
+
+.imagem-formulario img{
+    max-height: 48px;
+}
+
+#sobre-beneficio img, p, h1 {
+    color: ivory;
+    padding: 16px;
+    text-align: justify;
+}
+
+#sobre-beneficio {
+    display: flex;
+}
+
+form {
+    max-width: 360px;
+    display: block;
+    padding: 16px;
+}
+
+.formulario h2 {
+    color: ivory;
+}
+
+.formulario {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+button {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    padding: 8px 0;
+    background-color: ivory;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.form-campo {
+    margin-bottom: 16px;
+}
+
+.form-campo label {
+    font-weight: bold;
+    display: block;
+    color: ivory;
+}
+
+.form-campo input, 
+.form-campo textarea {
+    width: 100%;
+    display: block;
+    padding: 8px;
+}
+
+form h2 {
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+
+footer li {
+    list-style: none;
+    margin-left: 16px;
+    align-items: center;
+}
+
+footer li img {
+    height: 32px;
+    align-items: center;
+}
+
+.container-flex {
+    display: flex;
+}
+
+footer {
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    font-weight: bold;
+    background-color: black;
+}
+
+
